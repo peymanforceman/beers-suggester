@@ -11,6 +11,7 @@ This is a backend coding challenge based on PunkIPA  https://punkapi.com/documen
 4. run command : `php artisan migrate`
 6. run command : `php artisan serve`
 7. open web server
+8. Click `Update Database` from Header ( top right position ), to download beers from punk api and put them into our own Database.
 
 The app has 2 endpoints:
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91115188-8ffd-4b6f-96da-8d91b6165b7d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/BeerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/API/BeerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Beer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Beer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Beer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -33,6 +32,15 @@
               <folding>
                 <element signature="e#30#64#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -87,6 +95,7 @@
         <option value="$PROJECT_DIR$/resources/views/partials/footer_scripts.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/API/BeerController.php" />
         <option value="$PROJECT_DIR$/app/Models/Beer.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
       </list>
     </option>
   </component>
@@ -230,6 +239,11 @@
             <path>
               <item name="challenge" type="b2602c69:ProjectViewProjectNode" />
               <item name="challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="challenge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="challenge" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,12 +331,12 @@
       <workItem from="1564131880471" duration="8420000" />
       <workItem from="1564214889553" duration="13136000" />
       <workItem from="1564261412937" duration="4875000" />
-      <workItem from="1564297469250" duration="3178000" />
+      <workItem from="1564297469250" duration="3362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29728000" />
+    <option name="totallyTimeSpent" value="29912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1440" height="825" extended-state="0" />
@@ -739,6 +753,13 @@
           <folding>
             <element signature="e#30#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>

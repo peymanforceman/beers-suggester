@@ -16,13 +16,6 @@
             increaseArea: '20%' /* optional */
         });
     });
-    @if($no_beer_exist)
-    $(document).ready(function () {
-        update_database();
-
-    });
-
-    @endif
 
     function update_database() {
         $('#update_db_modal').modal('show');

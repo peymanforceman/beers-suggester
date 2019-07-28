@@ -10,17 +10,11 @@ class MainController extends Controller
 {
     public function index()
     {
-        if (Beer::first() == null) {
-            $no_beer_exist = true;
-        } else {
-            $no_beer_exist = false;
-        }
 
         return view('dashboard.dashboard')->with(
             [
                 'path' => __('trans.Home'),
                 'msg' => __('trans.Find your favorite beer to receive a list of similar beers, based on name and ABV!'),
-                'no_beer_exist' => $no_beer_exist,
             ]);
     }
 
@@ -41,26 +35,17 @@ class MainController extends Controller
             $beers = collect([]);
         }
 
-        if ($beers->isEmpty()) {
-            if (Beer::first() == null) {
-                $no_beer_exist = true;
-            }
-        } else {
-            $no_beer_exist = false;
-        }
-
-
         return view('dashboard.beers')->with(
             [
                 'path' => __('trans.Suggest A Beer'),
                 'msg' => __('trans.Find your favorite beer to receive a list of similar beers, based on name and ABV!'),
                 'beers' => $beers,
                 'request' => $request,
-                'no_beer_exist' => $no_beer_exist,
             ]);
     }
 
-    public function api_doc(){
+    public function api_doc()
+    {
         return view('dashboard.api_doc');
     }
 }

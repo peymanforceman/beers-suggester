@@ -64,9 +64,9 @@ class BeerController extends Controller
                 foreach ($response_json as $beer_data) {
                     Beer::create([
                         'uid' => $beer_data['id'],
-                        'name' => $beer_data['name'],
-                        'description' => $beer_data['description'],
-                        'tagline' => $beer_data['tagline'],
+                        'name' => strtolower($beer_data['name']),
+                        'description' => strtolower($beer_data['description']),
+                        'tagline' => strtolower($beer_data['tagline']),
                         'abv' => $beer_data['abv'],
                         'image_url' => $beer_data['image_url'],
                     ]);

@@ -27,6 +27,6 @@ class Beer extends Model
     {
         // I believe it's not a good method to filter or find beers , because it's a wild card search query.
         // it's better to query string values with without a wild card (%) at first, but for now we just have to use a wild card query :)
-        $builder->where('name', 'LIKE', '%' . $name . '%');
+        $builder->where('name', 'LIKE', '%' . strtolower($name) . '%');
     }
 }

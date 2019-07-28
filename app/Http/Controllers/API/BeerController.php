@@ -27,10 +27,6 @@ class BeerController extends Controller
             ], 400);
         }
 
-        if (Beer::first() == null) {
-            $response = $this->update_beers();
-        }
-
         return BeerResource::collection(
             Beer::findName($request->name)
                 ->filterByHigherABV(is_null($request->abv) ? 0 : $request->abv)
